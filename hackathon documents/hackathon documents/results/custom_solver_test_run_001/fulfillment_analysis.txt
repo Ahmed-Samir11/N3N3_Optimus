@@ -1,0 +1,262 @@
+ORDER FULFILLMENT ANALYSIS
+==================================================
+
+FULFILLMENT SUMMARY:
+--------------------
+Total Orders: 50
+Orders Served: 0
+Fully Fulfilled: 0
+Average Fulfillment Rate: 0.0%
+
+ORDER-BY-ORDER DETAILS:
+-------------------------
+
+ORD-1: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+
+ORD-2: 0.0% fulfilled
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+
+ORD-3: 0.0% fulfilled
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/4 delivered (4 remaining)
+
+ORD-4: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+
+ORD-5: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+
+ORD-6: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+
+ORD-7: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-8: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/3 delivered (3 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+
+ORD-9: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+
+ORD-10: 0.0% fulfilled
+  Light_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-11: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Medium_Item: 0/4 delivered (4 remaining)
+
+ORD-12: 0.0% fulfilled
+  Light_Item: 0/3 delivered (3 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+
+ORD-13: 0.0% fulfilled
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/3 delivered (3 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-14: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+
+ORD-15: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-16: 0.0% fulfilled
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+
+ORD-17: 0.0% fulfilled
+  Light_Item: 0/3 delivered (3 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-18: 0.0% fulfilled
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+
+ORD-19: 0.0% fulfilled
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+
+ORD-20: 0.0% fulfilled
+  Light_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/4 delivered (4 remaining)
+
+ORD-21: 0.0% fulfilled
+  Medium_Item: 0/3 delivered (3 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/3 delivered (3 remaining)
+
+ORD-22: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+
+ORD-23: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-24: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+
+ORD-25: 0.0% fulfilled
+  Medium_Item: 0/4 delivered (4 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+
+ORD-26: 0.0% fulfilled
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/3 delivered (3 remaining)
+
+ORD-27: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-28: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+
+ORD-29: 0.0% fulfilled
+  Light_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+
+ORD-30: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+
+ORD-31: 0.0% fulfilled
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+
+ORD-32: 0.0% fulfilled
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+
+ORD-33: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+
+ORD-34: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-35: 0.0% fulfilled
+  Light_Item: 0/3 delivered (3 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/4 delivered (4 remaining)
+
+ORD-36: 0.0% fulfilled
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/4 delivered (4 remaining)
+
+ORD-37: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-38: 0.0% fulfilled
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-39: 0.0% fulfilled
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-40: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+
+ORD-41: 0.0% fulfilled
+  Light_Item: 0/4 delivered (4 remaining)
+  Heavy_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-42: 0.0% fulfilled
+  Light_Item: 0/4 delivered (4 remaining)
+  Medium_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+
+ORD-43: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+
+ORD-44: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+
+ORD-45: 0.0% fulfilled
+  Medium_Item: 0/6 delivered (6 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/5 delivered (5 remaining)
+
+ORD-46: 0.0% fulfilled
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/4 delivered (4 remaining)
+
+ORD-47: 0.0% fulfilled
+  Light_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)
+
+ORD-48: 0.0% fulfilled
+  Medium_Item: 0/5 delivered (5 remaining)
+  Heavy_Item: 0/3 delivered (3 remaining)
+  Light_Item: 0/6 delivered (6 remaining)
+
+ORD-49: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/3 delivered (3 remaining)
+
+ORD-50: 0.0% fulfilled
+  Light_Item: 0/6 delivered (6 remaining)
+  Heavy_Item: 0/6 delivered (6 remaining)
+  Medium_Item: 0/5 delivered (5 remaining)

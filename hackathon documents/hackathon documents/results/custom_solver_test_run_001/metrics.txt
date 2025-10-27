@@ -1,0 +1,25 @@
+COMPREHENSIVE METRICS
+==================================================
+
+OPERATIONAL METRICS:
+--------------------
+total_routes: 0
+unique_vehicles_used: 0
+total_vehicles: 12
+unique_orders_served: 0
+total_orders: 50
+total_distance: 0.000
+total_cost: 0.000
+fixed_cost_total: 0.000
+variable_cost_total: 0.000
+vehicle_utilization_ratio: 0.000
+orders_fulfillment_ratio: 0.000
+average_fulfillment_rate: 0.000
+fully_fulfilled_orders: 0
+
+ENVIRONMENT CONFIGURATION:
+------------------------------
+num_warehouses: 2
+num_vehicles: 12
+num_orders: 50
+random_seed: None

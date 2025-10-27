@@ -1,0 +1,32 @@
+VALIDATION REPORT
+==================================================
+
+Overall Status: INVALID
+Message: Solution has 12 invalid routes
+
+INDIVIDUAL ROUTE VALIDATION:
+------------------------------
+Route 1 (LightVan_WH-1_1): INVALID
+  Error: Route 1 validation failed: No road connection from node 29542602 to 6603274287
+Route 2 (LightVan_WH-1_2): INVALID
+  Error: Route 2 validation failed: No road connection from node 29542602 to 7203483747
+Route 3 (LightVan_WH-1_3): INVALID
+  Error: Route 3 validation failed: No road connection from node 29542602 to 7201338969
+Route 4 (MediumTruck_WH-1_1): INVALID
+  Error: Route 4 validation failed: No road connection from node 29542602 to 6584163946
+Route 5 (MediumTruck_WH-1_2): INVALID
+  Error: Route 5 validation failed: No road connection from node 29542602 to 6117022113
+Route 6 (HeavyTruck_WH-1_1): INVALID
+  Error: Route 6 validation failed: No road connection from node 29542602 to 7188562668
+Route 7 (LightVan_WH-2_1): INVALID
+  Error: Route 7 validation failed: No road connection from node 31272168 to 6586018497
+Route 8 (LightVan_WH-2_2): INVALID
+  Error: Route 8 validation failed: No road connection from node 31272168 to 6586018514
+Route 9 (LightVan_WH-2_3): INVALID
+  Error: Route 9 validation failed: No road connection from node 31272168 to 6584163793
+Route 10 (MediumTruck_WH-2_1): INVALID
+  Error: Route 10 validation failed: No road connection from node 31272168 to 6583668918
+Route 11 (MediumTruck_WH-2_2): INVALID
+  Error: Route 11 validation failed: No road connection from node 31272168 to 7230271217
+Route 12 (HeavyTruck_WH-2_1): INVALID
+  Error: Route 12 validation failed: No road connection from node 31272168 to 8954125842

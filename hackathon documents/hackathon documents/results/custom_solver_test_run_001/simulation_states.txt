@@ -1,0 +1,23 @@
+SIMULATION STATE TRACKING
+==================================================
+
+INITIAL STATE:
+--------------------
+warehouses: 2
+vehicles: 12
+orders: 50
+skus: 3
+
+FINAL STATE:
+--------------------
+warehouses: 2
+vehicles: 12
+orders: 50
+skus: 3
+
+INITIAL PROGRESS:
+--------------------
+
+FINAL PROGRESS:
+--------------------
+

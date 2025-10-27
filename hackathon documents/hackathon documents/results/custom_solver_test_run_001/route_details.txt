@@ -1,0 +1,452 @@
+ROUTE DETAILS
+==================================================
+
+ROUTE 1:
+--------------------
+Vehicle: LightVan_WH-1_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 3x Light_Item
+    + Pickup: WH WH-1 - 3x Medium_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 3x Light_Item
+    + Pickup: WH WH-1 - 4x Heavy_Item
+    + Pickup: WH WH-1 - 3x Medium_Item
+    + Pickup: WH WH-1 - 4x Heavy_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 3x Light_Item
+    + Pickup: WH WH-1 - 2x Light_Item
+  Step 2 @ node 6603274287
+    - Delivery: Order ORD-3 - 3x Heavy_Item
+    - Delivery: Order ORD-3 - 5x Light_Item
+    - Delivery: Order ORD-3 - 4x Medium_Item
+  Step 3 @ node 11459550920
+    - Delivery: Order ORD-17 - 3x Light_Item
+    - Delivery: Order ORD-17 - 4x Heavy_Item
+    - Delivery: Order ORD-17 - 3x Medium_Item
+  Step 4 @ node 6583668969
+    - Delivery: Order ORD-26 - 4x Heavy_Item
+    - Delivery: Order ORD-26 - 5x Medium_Item
+    - Delivery: Order ORD-26 - 3x Light_Item
+  Step 5 @ node 6622319322
+    - Delivery: Order ORD-50 - 2x Light_Item
+  Step 6 @ node 6324425813
+    - Delivery: Order ORD-13 - 3x Heavy_Item
+    - Delivery: Order ORD-13 - 3x Light_Item
+    - Delivery: Order ORD-13 - 3x Medium_Item
+  Step 7 @ node 29542602
+
+ROUTE 2:
+--------------------
+Vehicle: LightVan_WH-1_2
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 3x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 4x Heavy_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+  Step 2 @ node 7203483747
+    - Delivery: Order ORD-27 - 6x Light_Item
+    - Delivery: Order ORD-27 - 6x Medium_Item
+    - Delivery: Order ORD-27 - 5x Heavy_Item
+  Step 3 @ node 7201338944
+    - Delivery: Order ORD-39 - 6x Heavy_Item
+    - Delivery: Order ORD-39 - 5x Light_Item
+    - Delivery: Order ORD-39 - 3x Medium_Item
+  Step 4 @ node 272477749
+    - Delivery: Order ORD-32 - 5x Light_Item
+    - Delivery: Order ORD-32 - 4x Heavy_Item
+    - Delivery: Order ORD-32 - 5x Medium_Item
+  Step 5 @ node 29542602
+
+ROUTE 3:
+--------------------
+Vehicle: LightVan_WH-1_3
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+  Step 2 @ node 7201338969
+    - Delivery: Order ORD-37 - 5x Medium_Item
+    - Delivery: Order ORD-37 - 6x Light_Item
+    - Delivery: Order ORD-37 - 5x Heavy_Item
+  Step 3 @ node 7270664121
+    - Delivery: Order ORD-6 - 4x Medium_Item
+    - Delivery: Order ORD-6 - 5x Heavy_Item
+    - Delivery: Order ORD-6 - 4x Light_Item
+  Step 4 @ node 6572719976
+    - Delivery: Order ORD-7 - 4x Medium_Item
+    - Delivery: Order ORD-7 - 5x Light_Item
+    - Delivery: Order ORD-7 - 5x Heavy_Item
+  Step 5 @ node 29542602
+
+ROUTE 4:
+--------------------
+Vehicle: MediumTruck_WH-1_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 3x Medium_Item
+    + Pickup: WH WH-1 - 4x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+  Step 2 @ node 6584163946
+    - Delivery: Order ORD-38 - 6x Heavy_Item
+    - Delivery: Order ORD-38 - 4x Light_Item
+    - Delivery: Order ORD-38 - 3x Medium_Item
+  Step 3 @ node 6101267022
+    - Delivery: Order ORD-2 - 4x Heavy_Item
+    - Delivery: Order ORD-2 - 4x Light_Item
+    - Delivery: Order ORD-2 - 6x Medium_Item
+  Step 4 @ node 273004695
+    - Delivery: Order ORD-24 - 4x Medium_Item
+    - Delivery: Order ORD-24 - 6x Heavy_Item
+    - Delivery: Order ORD-24 - 4x Light_Item
+  Step 5 @ node 7151388447
+    - Delivery: Order ORD-19 - 5x Heavy_Item
+    - Delivery: Order ORD-19 - 5x Medium_Item
+    - Delivery: Order ORD-19 - 5x Light_Item
+  Step 6 @ node 269971527
+    - Delivery: Order ORD-18 - 5x Light_Item
+    - Delivery: Order ORD-18 - 6x Heavy_Item
+    - Delivery: Order ORD-18 - 5x Medium_Item
+  Step 7 @ node 273005237
+    - Delivery: Order ORD-22 - 4x Medium_Item
+    - Delivery: Order ORD-22 - 5x Light_Item
+    - Delivery: Order ORD-22 - 3x Heavy_Item
+  Step 8 @ node 29542602
+
+ROUTE 5:
+--------------------
+Vehicle: MediumTruck_WH-1_2
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 4x Heavy_Item
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 5x Light_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 6x Heavy_Item
+  Step 2 @ node 6117022113
+    - Delivery: Order ORD-29 - 4x Light_Item
+    - Delivery: Order ORD-29 - 5x Medium_Item
+    - Delivery: Order ORD-29 - 6x Heavy_Item
+  Step 3 @ node 6570384040
+    - Delivery: Order ORD-14 - 6x Medium_Item
+    - Delivery: Order ORD-14 - 6x Heavy_Item
+    - Delivery: Order ORD-14 - 6x Light_Item
+  Step 4 @ node 270423059
+    - Delivery: Order ORD-40 - 5x Medium_Item
+    - Delivery: Order ORD-40 - 5x Light_Item
+    - Delivery: Order ORD-40 - 3x Heavy_Item
+  Step 5 @ node 10779456983
+    - Delivery: Order ORD-1 - 6x Medium_Item
+    - Delivery: Order ORD-1 - 3x Heavy_Item
+    - Delivery: Order ORD-1 - 4x Light_Item
+  Step 6 @ node 6510251986
+    - Delivery: Order ORD-9 - 6x Light_Item
+    - Delivery: Order ORD-9 - 4x Heavy_Item
+    - Delivery: Order ORD-9 - 6x Medium_Item
+  Step 7 @ node 6723954956
+    - Delivery: Order ORD-43 - 5x Medium_Item
+    - Delivery: Order ORD-43 - 5x Light_Item
+    - Delivery: Order ORD-43 - 6x Heavy_Item
+  Step 8 @ node 29542602
+
+ROUTE 6:
+--------------------
+Vehicle: HeavyTruck_WH-1_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+    + Pickup: WH WH-1 - 6x Medium_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 4x Light_Item
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 3x Heavy_Item
+    + Pickup: WH WH-1 - 4x Medium_Item
+    + Pickup: WH WH-1 - 5x Medium_Item
+    + Pickup: WH WH-1 - 6x Light_Item
+    + Pickup: WH WH-1 - 5x Heavy_Item
+  Step 2 @ node 7188562668
+    - Delivery: Order ORD-30 - 6x Medium_Item
+    - Delivery: Order ORD-30 - 3x Heavy_Item
+    - Delivery: Order ORD-30 - 4x Light_Item
+  Step 3 @ node 344540722
+    - Delivery: Order ORD-11 - 6x Light_Item
+    - Delivery: Order ORD-11 - 3x Heavy_Item
+    - Delivery: Order ORD-11 - 4x Medium_Item
+  Step 4 @ node 6731793166
+    - Delivery: Order ORD-15 - 5x Medium_Item
+    - Delivery: Order ORD-15 - 6x Light_Item
+    - Delivery: Order ORD-15 - 5x Heavy_Item
+  Step 5 @ node 29542602
+
+ROUTE 7:
+--------------------
+Vehicle: LightVan_WH-2_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 5x Light_Item
+    + Pickup: WH WH-2 - 3x Light_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+  Step 2 @ node 6586018497
+    - Delivery: Order ORD-45 - 6x Medium_Item
+    - Delivery: Order ORD-45 - 6x Light_Item
+    - Delivery: Order ORD-45 - 5x Heavy_Item
+  Step 3 @ node 273009042
+    - Delivery: Order ORD-16 - 5x Heavy_Item
+    - Delivery: Order ORD-16 - 5x Medium_Item
+    - Delivery: Order ORD-16 - 5x Light_Item
+  Step 4 @ node 6584163837
+    - Delivery: Order ORD-35 - 3x Light_Item
+    - Delivery: Order ORD-35 - 5x Heavy_Item
+    - Delivery: Order ORD-35 - 4x Medium_Item
+  Step 5 @ node 31272168
+
+ROUTE 8:
+--------------------
+Vehicle: LightVan_WH-2_2
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 3x Light_Item
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 4x Heavy_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 3x Light_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+  Step 2 @ node 6586018514
+    - Delivery: Order ORD-5 - 4x Medium_Item
+    - Delivery: Order ORD-5 - 6x Heavy_Item
+    - Delivery: Order ORD-5 - 6x Light_Item
+  Step 3 @ node 487061375
+    - Delivery: Order ORD-12 - 3x Light_Item
+    - Delivery: Order ORD-12 - 6x Medium_Item
+    - Delivery: Order ORD-12 - 4x Heavy_Item
+  Step 4 @ node 6584163881
+    - Delivery: Order ORD-8 - 5x Medium_Item
+    - Delivery: Order ORD-8 - 3x Light_Item
+    - Delivery: Order ORD-8 - 3x Heavy_Item
+  Step 5 @ node 31272168
+
+ROUTE 9:
+--------------------
+Vehicle: LightVan_WH-2_3
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 4x Heavy_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 4x Heavy_Item
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 5x Light_Item
+  Step 2 @ node 6584163793
+    - Delivery: Order ORD-4 - 6x Light_Item
+    - Delivery: Order ORD-4 - 6x Medium_Item
+    - Delivery: Order ORD-4 - 4x Heavy_Item
+  Step 3 @ node 6594187474
+    - Delivery: Order ORD-25 - 4x Medium_Item
+    - Delivery: Order ORD-25 - 6x Light_Item
+    - Delivery: Order ORD-25 - 4x Heavy_Item
+  Step 4 @ node 7166938195
+    - Delivery: Order ORD-33 - 6x Medium_Item
+    - Delivery: Order ORD-33 - 5x Heavy_Item
+    - Delivery: Order ORD-33 - 5x Light_Item
+  Step 5 @ node 31272168
+
+ROUTE 10:
+--------------------
+Vehicle: MediumTruck_WH-2_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 3x Medium_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 5x Light_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 4x Heavy_Item
+    + Pickup: WH WH-2 - 3x Medium_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+  Step 2 @ node 6583668918
+    - Delivery: Order ORD-23 - 5x Medium_Item
+    - Delivery: Order ORD-23 - 6x Light_Item
+    - Delivery: Order ORD-23 - 5x Heavy_Item
+  Step 3 @ node 6583668917
+    - Delivery: Order ORD-41 - 4x Light_Item
+    - Delivery: Order ORD-41 - 4x Heavy_Item
+    - Delivery: Order ORD-41 - 3x Medium_Item
+  Step 4 @ node 6583663357
+    - Delivery: Order ORD-10 - 4x Light_Item
+    - Delivery: Order ORD-10 - 3x Heavy_Item
+    - Delivery: Order ORD-10 - 3x Medium_Item
+  Step 5 @ node 6583668885
+    - Delivery: Order ORD-47 - 5x Light_Item
+    - Delivery: Order ORD-47 - 3x Heavy_Item
+    - Delivery: Order ORD-47 - 5x Medium_Item
+  Step 6 @ node 273014887
+    - Delivery: Order ORD-28 - 5x Medium_Item
+    - Delivery: Order ORD-28 - 6x Light_Item
+    - Delivery: Order ORD-28 - 6x Heavy_Item
+  Step 7 @ node 6581325006
+    - Delivery: Order ORD-20 - 4x Light_Item
+    - Delivery: Order ORD-20 - 5x Heavy_Item
+    - Delivery: Order ORD-20 - 4x Medium_Item
+  Step 8 @ node 7201338992
+    - Delivery: Order ORD-48 - 5x Medium_Item
+    - Delivery: Order ORD-48 - 3x Heavy_Item
+    - Delivery: Order ORD-48 - 6x Light_Item
+  Step 9 @ node 31272168
+
+ROUTE 11:
+--------------------
+Vehicle: MediumTruck_WH-2_2
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 5x Light_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 3x Medium_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+    + Pickup: WH WH-2 - 3x Light_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 3x Medium_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 6x Light_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 3x Medium_Item
+  Step 2 @ node 7230271217
+    - Delivery: Order ORD-44 - 6x Medium_Item
+    - Delivery: Order ORD-44 - 6x Light_Item
+    - Delivery: Order ORD-44 - 3x Heavy_Item
+  Step 3 @ node 6619366144
+    - Delivery: Order ORD-36 - 6x Heavy_Item
+    - Delivery: Order ORD-36 - 6x Light_Item
+    - Delivery: Order ORD-36 - 4x Medium_Item
+  Step 4 @ node 7149195458
+    - Delivery: Order ORD-46 - 6x Heavy_Item
+    - Delivery: Order ORD-46 - 3x Medium_Item
+    - Delivery: Order ORD-46 - 4x Light_Item
+  Step 5 @ node 6583668888
+    - Delivery: Order ORD-34 - 6x Medium_Item
+    - Delivery: Order ORD-34 - 5x Light_Item
+    - Delivery: Order ORD-34 - 5x Heavy_Item
+  Step 6 @ node 6119868298
+    - Delivery: Order ORD-49 - 6x Light_Item
+    - Delivery: Order ORD-49 - 6x Heavy_Item
+    - Delivery: Order ORD-49 - 3x Medium_Item
+  Step 7 @ node 6579759323
+    - Delivery: Order ORD-21 - 3x Medium_Item
+    - Delivery: Order ORD-21 - 5x Heavy_Item
+    - Delivery: Order ORD-21 - 3x Light_Item
+  Step 8 @ node 31272168
+
+ROUTE 12:
+--------------------
+Vehicle: HeavyTruck_WH-2_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 6x Medium_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 6x Heavy_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+    + Pickup: WH WH-2 - 3x Heavy_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 5x Medium_Item
+  Step 2 @ node 8954125842
+    - Delivery: Order ORD-31 - 3x Heavy_Item
+    - Delivery: Order ORD-31 - 4x Light_Item
+    - Delivery: Order ORD-31 - 5x Medium_Item
+  Step 3 @ node 270423198
+    - Delivery: Order ORD-42 - 4x Light_Item
+    - Delivery: Order ORD-42 - 6x Medium_Item
+    - Delivery: Order ORD-42 - 3x Heavy_Item
+  Step 4 @ node 6622319322
+    - Delivery: Order ORD-50 - 4x Light_Item
+    - Delivery: Order ORD-50 - 6x Heavy_Item
+    - Delivery: Order ORD-50 - 5x Medium_Item
+  Step 5 @ node 31272168
+

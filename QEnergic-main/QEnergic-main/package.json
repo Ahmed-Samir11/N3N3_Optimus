@@ -1,0 +1,21 @@
+{
+  "name": "microgrid-optimizer-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.2.0",
+    "axios": "^1.10.0",
+    "haversine-distance": "^1.1.1",
+    "javascript-lp-solver": "^0.4.24",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^2.0.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-leaflet": "^5.0.0"
+  }
+}

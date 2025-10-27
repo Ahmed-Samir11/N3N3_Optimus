@@ -1,0 +1,20 @@
+ROBIN LOGISTICS - SOLUTION SUMMARY
+==================================================
+
+Solver: custom_solver
+Run ID: test_run_001
+Timestamp: 2025-10-23T05:02:19.759746
+Execution Time: 51.76 seconds
+
+VALIDATION STATUS: INVALID
+Message: Solution has 12 invalid routes
+
+KEY METRICS:
+--------------------
+Total Routes: 0
+Vehicles Used: 0/12
+Orders Served: 0/50
+Total Distance: 0.00 km
+Total Cost: £0.00
+Vehicle Utilization: 0.0%
+Order Fulfillment: 0.0%

@@ -1,0 +1,12 @@
+[
+  { "name": "Cairo", "lat": 30.0444, "lng": 31.2357 },
+  { "name": "Lagos", "lat": 6.5244, "lng": 3.3792 },
+  { "name": "Kinshasa", "lat": -4.4419, "lng": 15.2663 },
+  { "name": "Johannesburg", "lat": -26.2041, "lng": 28.0473 },
+  { "name": "Nairobi", "lat": -1.2921, "lng": 36.8219 },
+  { "name": "Addis Ababa", "lat": 9.1450, "lng": 40.4897 },
+  { "name": "Casablanca", "lat": 33.5731, "lng": -7.5898 },
+  { "name": "Accra", "lat": 5.6037, "lng": -0.1870 },
+  { "name": "Dar es Salaam", "lat": -6.7924, "lng": 39.2083 },
+  { "name": "Abidjan", "lat": 5.3453, "lng": -4.0244 }
+]

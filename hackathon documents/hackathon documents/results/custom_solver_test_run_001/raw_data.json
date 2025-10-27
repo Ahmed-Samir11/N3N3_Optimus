@@ -1,0 +1,5008 @@
+{
+  "solver_name": "custom_solver",
+  "run_id": "test_run_001",
+  "execution_time": 51.75900721549988,
+  "timestamp": "2025-10-23T05:02:19.759746",
+  "is_valid": false,
+  "validation_message": "Solution has 12 invalid routes",
+  "validation_details": {
+    "valid_routes": [],
+    "invalid_routes": [
+      {
+        "route_index": 0,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-1_1",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 2
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6603274287,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-3",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-3",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-3",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 11459550920,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-17",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-17",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-17",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6583668969,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-26",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-26",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-26",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6622319322,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-50",
+                  "sku_id": "Light_Item",
+                  "quantity": 2
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6324425813,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-13",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-13",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-13",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 1 validation failed: No road connection from node 29542602 to 6603274287",
+        "vehicle_id": "LightVan_WH-1_1",
+        "steps_count": 7
+      },
+      {
+        "route_index": 1,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-1_2",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 7203483747,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-27",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-27",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-27",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7201338944,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-39",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-39",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-39",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 272477749,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-32",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-32",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-32",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 2 validation failed: No road connection from node 29542602 to 7203483747",
+        "vehicle_id": "LightVan_WH-1_2",
+        "steps_count": 5
+      },
+      {
+        "route_index": 2,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-1_3",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 7201338969,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-37",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-37",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-37",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7270664121,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-6",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-6",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-6",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6572719976,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-7",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-7",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-7",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 3 validation failed: No road connection from node 29542602 to 7201338969",
+        "vehicle_id": "LightVan_WH-1_3",
+        "steps_count": 5
+      },
+      {
+        "route_index": 3,
+        "route_data": {
+          "vehicle_id": "MediumTruck_WH-1_1",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6584163946,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-38",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-38",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-38",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6101267022,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 273004695,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-24",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-24",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-24",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7151388447,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-19",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-19",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-19",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 269971527,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-18",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-18",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-18",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 273005237,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-22",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-22",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-22",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 4 validation failed: No road connection from node 29542602 to 6584163946",
+        "vehicle_id": "MediumTruck_WH-1_1",
+        "steps_count": 8
+      },
+      {
+        "route_index": 4,
+        "route_data": {
+          "vehicle_id": "MediumTruck_WH-1_2",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6117022113,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-29",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-29",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-29",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6570384040,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-14",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-14",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-14",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 270423059,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-40",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-40",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-40",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 10779456983,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6510251986,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-9",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-9",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-9",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6723954956,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-43",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-43",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-43",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 5 validation failed: No road connection from node 29542602 to 6117022113",
+        "vehicle_id": "MediumTruck_WH-1_2",
+        "steps_count": 8
+      },
+      {
+        "route_index": 5,
+        "route_data": {
+          "vehicle_id": "HeavyTruck_WH-1_1",
+          "steps": [
+            {
+              "node_id": 29542602,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-1",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 7188562668,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-30",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-30",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-30",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 344540722,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-11",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-11",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-11",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6731793166,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-15",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-15",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-15",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 29542602,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 6 validation failed: No road connection from node 29542602 to 7188562668",
+        "vehicle_id": "HeavyTruck_WH-1_1",
+        "steps_count": 5
+      },
+      {
+        "route_index": 6,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-2_1",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6586018497,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-45",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-45",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-45",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 273009042,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-16",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-16",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-16",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6584163837,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-35",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-35",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-35",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 7 validation failed: No road connection from node 31272168 to 6586018497",
+        "vehicle_id": "LightVan_WH-2_1",
+        "steps_count": 5
+      },
+      {
+        "route_index": 7,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-2_2",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6586018514,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-5",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-5",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-5",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 487061375,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-12",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-12",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-12",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6584163881,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-8",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-8",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-8",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 8 validation failed: No road connection from node 31272168 to 6586018514",
+        "vehicle_id": "LightVan_WH-2_2",
+        "steps_count": 5
+      },
+      {
+        "route_index": 8,
+        "route_data": {
+          "vehicle_id": "LightVan_WH-2_3",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6584163793,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-4",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-4",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-4",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6594187474,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-25",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-25",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-25",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7166938195,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-33",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-33",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-33",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 9 validation failed: No road connection from node 31272168 to 6584163793",
+        "vehicle_id": "LightVan_WH-2_3",
+        "steps_count": 5
+      },
+      {
+        "route_index": 9,
+        "route_data": {
+          "vehicle_id": "MediumTruck_WH-2_1",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 6583668918,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-23",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-23",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-23",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6583668917,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-41",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-41",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-41",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6583663357,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-10",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-10",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-10",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6583668885,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-47",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-47",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-47",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 273014887,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-28",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-28",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-28",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6581325006,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-20",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-20",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-20",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7201338992,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-48",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-48",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-48",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 10 validation failed: No road connection from node 31272168 to 6583668918",
+        "vehicle_id": "MediumTruck_WH-2_1",
+        "steps_count": 9
+      },
+      {
+        "route_index": 10,
+        "route_data": {
+          "vehicle_id": "MediumTruck_WH-2_2",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 7230271217,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-44",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-44",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-44",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6619366144,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-36",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-36",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-36",
+                  "sku_id": "Medium_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 7149195458,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-46",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-46",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-46",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6583668888,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-34",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-34",
+                  "sku_id": "Light_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-34",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6119868298,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-49",
+                  "sku_id": "Light_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-49",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-49",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6579759323,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-21",
+                  "sku_id": "Medium_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-21",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 5
+                },
+                {
+                  "order_id": "ORD-21",
+                  "sku_id": "Light_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 11 validation failed: No road connection from node 31272168 to 7230271217",
+        "vehicle_id": "MediumTruck_WH-2_2",
+        "steps_count": 8
+      },
+      {
+        "route_index": 11,
+        "route_data": {
+          "vehicle_id": "HeavyTruck_WH-2_1",
+          "steps": [
+            {
+              "node_id": 31272168,
+              "pickups": [
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "warehouse_id": "WH-2",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "deliveries": [],
+              "unloads": []
+            },
+            {
+              "node_id": 8954125842,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-31",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                },
+                {
+                  "order_id": "ORD-31",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-31",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 270423198,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-42",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-42",
+                  "sku_id": "Medium_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-42",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 3
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 6622319322,
+              "pickups": [],
+              "deliveries": [
+                {
+                  "order_id": "ORD-50",
+                  "sku_id": "Light_Item",
+                  "quantity": 4
+                },
+                {
+                  "order_id": "ORD-50",
+                  "sku_id": "Heavy_Item",
+                  "quantity": 6
+                },
+                {
+                  "order_id": "ORD-50",
+                  "sku_id": "Medium_Item",
+                  "quantity": 5
+                }
+              ],
+              "unloads": []
+            },
+            {
+              "node_id": 31272168,
+              "pickups": [],
+              "deliveries": [],
+              "unloads": []
+            }
+          ]
+        },
+        "error": "Route 12 validation failed: No road connection from node 31272168 to 8954125842",
+        "vehicle_id": "HeavyTruck_WH-2_1",
+        "steps_count": 5
+      }
+    ],
+    "total_routes": 12,
+    "valid_count": 0,
+    "invalid_count": 12
+  },
+  "solution": {
+    "routes": [
+      {
+        "vehicle_id": "LightVan_WH-1_1",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 2
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6603274287,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-3",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-3",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-3",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 11459550920,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-17",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-17",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-17",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6583668969,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-26",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-26",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-26",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6622319322,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-50",
+                "sku_id": "Light_Item",
+                "quantity": 2
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6324425813,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-13",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-13",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-13",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "LightVan_WH-1_2",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 7203483747,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-27",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-27",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-27",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7201338944,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-39",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-39",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-39",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 272477749,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-32",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-32",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-32",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "LightVan_WH-1_3",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 7201338969,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-37",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-37",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-37",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7270664121,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-6",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-6",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-6",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6572719976,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-7",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-7",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-7",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "MediumTruck_WH-1_1",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6584163946,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-38",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-38",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-38",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6101267022,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 273004695,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-24",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-24",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-24",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7151388447,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-19",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-19",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-19",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 269971527,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-18",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-18",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-18",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 273005237,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-22",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-22",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-22",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "MediumTruck_WH-1_2",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6117022113,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-29",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-29",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-29",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6570384040,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-14",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-14",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-14",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 270423059,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-40",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-40",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-40",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 10779456983,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6510251986,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-9",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-9",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-9",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6723954956,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-43",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-43",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-43",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "HeavyTruck_WH-1_1",
+        "steps": [
+          {
+            "node_id": 29542602,
+            "pickups": [
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-1",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 7188562668,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-30",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-30",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-30",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 344540722,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-11",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-11",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-11",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6731793166,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-15",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-15",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-15",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 29542602,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "LightVan_WH-2_1",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6586018497,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-45",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-45",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-45",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 273009042,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-16",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-16",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-16",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6584163837,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-35",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-35",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-35",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "LightVan_WH-2_2",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6586018514,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-5",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-5",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-5",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 487061375,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-12",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-12",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-12",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6584163881,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-8",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-8",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-8",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "LightVan_WH-2_3",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6584163793,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-4",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-4",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-4",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6594187474,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-25",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-25",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-25",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7166938195,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-33",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-33",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-33",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "MediumTruck_WH-2_1",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 6583668918,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-23",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-23",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-23",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6583668917,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-41",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-41",
+                "sku_id": "Heavy_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-41",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6583663357,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-10",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-10",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-10",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6583668885,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-47",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-47",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-47",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 273014887,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-28",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-28",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-28",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6581325006,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-20",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-20",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-20",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7201338992,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-48",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-48",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-48",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "MediumTruck_WH-2_2",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 7230271217,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-44",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-44",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-44",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6619366144,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-36",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-36",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-36",
+                "sku_id": "Medium_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 7149195458,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-46",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-46",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-46",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6583668888,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-34",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-34",
+                "sku_id": "Light_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-34",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6119868298,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-49",
+                "sku_id": "Light_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-49",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-49",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6579759323,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-21",
+                "sku_id": "Medium_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-21",
+                "sku_id": "Heavy_Item",
+                "quantity": 5
+              },
+              {
+                "order_id": "ORD-21",
+                "sku_id": "Light_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      },
+      {
+        "vehicle_id": "HeavyTruck_WH-2_1",
+        "steps": [
+          {
+            "node_id": 31272168,
+            "pickups": [
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "warehouse_id": "WH-2",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "deliveries": [],
+            "unloads": []
+          },
+          {
+            "node_id": 8954125842,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-31",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              },
+              {
+                "order_id": "ORD-31",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-31",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 270423198,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-42",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-42",
+                "sku_id": "Medium_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-42",
+                "sku_id": "Heavy_Item",
+                "quantity": 3
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 6622319322,
+            "pickups": [],
+            "deliveries": [
+              {
+                "order_id": "ORD-50",
+                "sku_id": "Light_Item",
+                "quantity": 4
+              },
+              {
+                "order_id": "ORD-50",
+                "sku_id": "Heavy_Item",
+                "quantity": 6
+              },
+              {
+                "order_id": "ORD-50",
+                "sku_id": "Medium_Item",
+                "quantity": 5
+              }
+            ],
+            "unloads": []
+          },
+          {
+            "node_id": 31272168,
+            "pickups": [],
+            "deliveries": [],
+            "unloads": []
+          }
+        ]
+      }
+    ]
+  },
+  "executed": false,
+  "execution_message": "All 12 routes failed to execute",
+  "statistics": {
+    "total_routes": 0,
+    "unique_vehicles_used": 0,
+    "total_vehicles": 12,
+    "unique_orders_served": 0,
+    "total_orders": 50,
+    "total_distance": 0.0,
+    "total_cost": 0.0,
+    "fixed_cost_total": 0.0,
+    "variable_cost_total": 0.0,
+    "vehicle_utilization_ratio": 0.0,
+    "orders_fulfillment_ratio": 0.0,
+    "average_fulfillment_rate": 0.0,
+    "fully_fulfilled_orders": 0
+  },
+  "fulfillment_summary": {
+    "total_orders": 50,
+    "orders_served": 0,
+    "fully_fulfilled_orders": 0,
+    "total_vehicles": 12,
+    "vehicles_used": 0,
+    "total_distance": 0.0,
+    "total_cost": 6700.0,
+    "average_fulfillment_rate": 0.0,
+    "order_fulfillment_details": {
+      "ORD-1": {
+        "requested": {
+          "Medium_Item": 6,
+          "Heavy_Item": 3,
+          "Light_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Heavy_Item": 3,
+          "Light_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-2": {
+        "requested": {
+          "Heavy_Item": 4,
+          "Light_Item": 4,
+          "Medium_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 4,
+          "Light_Item": 4,
+          "Medium_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-3": {
+        "requested": {
+          "Heavy_Item": 3,
+          "Light_Item": 5,
+          "Medium_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 3,
+          "Light_Item": 5,
+          "Medium_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-4": {
+        "requested": {
+          "Light_Item": 6,
+          "Medium_Item": 6,
+          "Heavy_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Medium_Item": 6,
+          "Heavy_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-5": {
+        "requested": {
+          "Medium_Item": 4,
+          "Heavy_Item": 6,
+          "Light_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Heavy_Item": 6,
+          "Light_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-6": {
+        "requested": {
+          "Medium_Item": 4,
+          "Heavy_Item": 5,
+          "Light_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Heavy_Item": 5,
+          "Light_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-7": {
+        "requested": {
+          "Medium_Item": 4,
+          "Light_Item": 5,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Light_Item": 5,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-8": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 3,
+          "Heavy_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 3,
+          "Heavy_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-9": {
+        "requested": {
+          "Light_Item": 6,
+          "Heavy_Item": 4,
+          "Medium_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Heavy_Item": 4,
+          "Medium_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-10": {
+        "requested": {
+          "Light_Item": 4,
+          "Heavy_Item": 3,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 4,
+          "Heavy_Item": 3,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-11": {
+        "requested": {
+          "Light_Item": 6,
+          "Heavy_Item": 3,
+          "Medium_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Heavy_Item": 3,
+          "Medium_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-12": {
+        "requested": {
+          "Light_Item": 3,
+          "Medium_Item": 6,
+          "Heavy_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 3,
+          "Medium_Item": 6,
+          "Heavy_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-13": {
+        "requested": {
+          "Heavy_Item": 3,
+          "Light_Item": 3,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 3,
+          "Light_Item": 3,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-14": {
+        "requested": {
+          "Medium_Item": 6,
+          "Heavy_Item": 6,
+          "Light_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Heavy_Item": 6,
+          "Light_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-15": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-16": {
+        "requested": {
+          "Heavy_Item": 5,
+          "Medium_Item": 5,
+          "Light_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 5,
+          "Medium_Item": 5,
+          "Light_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-17": {
+        "requested": {
+          "Light_Item": 3,
+          "Heavy_Item": 4,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 3,
+          "Heavy_Item": 4,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-18": {
+        "requested": {
+          "Light_Item": 5,
+          "Heavy_Item": 6,
+          "Medium_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 5,
+          "Heavy_Item": 6,
+          "Medium_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-19": {
+        "requested": {
+          "Heavy_Item": 5,
+          "Medium_Item": 5,
+          "Light_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 5,
+          "Medium_Item": 5,
+          "Light_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-20": {
+        "requested": {
+          "Light_Item": 4,
+          "Heavy_Item": 5,
+          "Medium_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 4,
+          "Heavy_Item": 5,
+          "Medium_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-21": {
+        "requested": {
+          "Medium_Item": 3,
+          "Heavy_Item": 5,
+          "Light_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 3,
+          "Heavy_Item": 5,
+          "Light_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-22": {
+        "requested": {
+          "Medium_Item": 4,
+          "Light_Item": 5,
+          "Heavy_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Light_Item": 5,
+          "Heavy_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-23": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-24": {
+        "requested": {
+          "Medium_Item": 4,
+          "Heavy_Item": 6,
+          "Light_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Heavy_Item": 6,
+          "Light_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-25": {
+        "requested": {
+          "Medium_Item": 4,
+          "Light_Item": 6,
+          "Heavy_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 4,
+          "Light_Item": 6,
+          "Heavy_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-26": {
+        "requested": {
+          "Heavy_Item": 4,
+          "Medium_Item": 5,
+          "Light_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 4,
+          "Medium_Item": 5,
+          "Light_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-27": {
+        "requested": {
+          "Light_Item": 6,
+          "Medium_Item": 6,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Medium_Item": 6,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-28": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-29": {
+        "requested": {
+          "Light_Item": 4,
+          "Medium_Item": 5,
+          "Heavy_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 4,
+          "Medium_Item": 5,
+          "Heavy_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-30": {
+        "requested": {
+          "Medium_Item": 6,
+          "Heavy_Item": 3,
+          "Light_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Heavy_Item": 3,
+          "Light_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-31": {
+        "requested": {
+          "Heavy_Item": 3,
+          "Light_Item": 4,
+          "Medium_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 3,
+          "Light_Item": 4,
+          "Medium_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-32": {
+        "requested": {
+          "Light_Item": 5,
+          "Heavy_Item": 4,
+          "Medium_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 5,
+          "Heavy_Item": 4,
+          "Medium_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-33": {
+        "requested": {
+          "Medium_Item": 6,
+          "Heavy_Item": 5,
+          "Light_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Heavy_Item": 5,
+          "Light_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-34": {
+        "requested": {
+          "Medium_Item": 6,
+          "Light_Item": 5,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Light_Item": 5,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-35": {
+        "requested": {
+          "Light_Item": 3,
+          "Heavy_Item": 5,
+          "Medium_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 3,
+          "Heavy_Item": 5,
+          "Medium_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-36": {
+        "requested": {
+          "Heavy_Item": 6,
+          "Light_Item": 6,
+          "Medium_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 6,
+          "Light_Item": 6,
+          "Medium_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-37": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-38": {
+        "requested": {
+          "Heavy_Item": 6,
+          "Light_Item": 4,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 6,
+          "Light_Item": 4,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-39": {
+        "requested": {
+          "Heavy_Item": 6,
+          "Light_Item": 5,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 6,
+          "Light_Item": 5,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-40": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 5,
+          "Heavy_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 5,
+          "Heavy_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-41": {
+        "requested": {
+          "Light_Item": 4,
+          "Heavy_Item": 4,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 4,
+          "Heavy_Item": 4,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-42": {
+        "requested": {
+          "Light_Item": 4,
+          "Medium_Item": 6,
+          "Heavy_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 4,
+          "Medium_Item": 6,
+          "Heavy_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-43": {
+        "requested": {
+          "Medium_Item": 5,
+          "Light_Item": 5,
+          "Heavy_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Light_Item": 5,
+          "Heavy_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-44": {
+        "requested": {
+          "Medium_Item": 6,
+          "Light_Item": 6,
+          "Heavy_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Light_Item": 6,
+          "Heavy_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-45": {
+        "requested": {
+          "Medium_Item": 6,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 6,
+          "Light_Item": 6,
+          "Heavy_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-46": {
+        "requested": {
+          "Heavy_Item": 6,
+          "Medium_Item": 3,
+          "Light_Item": 4
+        },
+        "delivered": {},
+        "remaining": {
+          "Heavy_Item": 6,
+          "Medium_Item": 3,
+          "Light_Item": 4
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-47": {
+        "requested": {
+          "Light_Item": 5,
+          "Heavy_Item": 3,
+          "Medium_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 5,
+          "Heavy_Item": 3,
+          "Medium_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-48": {
+        "requested": {
+          "Medium_Item": 5,
+          "Heavy_Item": 3,
+          "Light_Item": 6
+        },
+        "delivered": {},
+        "remaining": {
+          "Medium_Item": 5,
+          "Heavy_Item": 3,
+          "Light_Item": 6
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-49": {
+        "requested": {
+          "Light_Item": 6,
+          "Heavy_Item": 6,
+          "Medium_Item": 3
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Heavy_Item": 6,
+          "Medium_Item": 3
+        },
+        "fulfillment_rate": 0.0
+      },
+      "ORD-50": {
+        "requested": {
+          "Light_Item": 6,
+          "Heavy_Item": 6,
+          "Medium_Item": 5
+        },
+        "delivered": {},
+        "remaining": {
+          "Light_Item": 6,
+          "Heavy_Item": 6,
+          "Medium_Item": 5
+        },
+        "fulfillment_rate": 0.0
+      }
+    },
+    "vehicle_utilization": 0.0
+  },
+  "environment_config": {
+    "num_warehouses": 2,
+    "num_vehicles": 12,
+    "num_orders": 50,
+    "random_seed": null
+  },
+  "simulation_states": {
+    "initial": {
+      "warehouses": 2,
+      "vehicles": 12,
+      "orders": 50,
+      "skus": 3
+    },
+    "final": {
+      "warehouses": 2,
+      "vehicles": 12,
+      "orders": 50,
+      "skus": 3
+    }
+  }
+}
