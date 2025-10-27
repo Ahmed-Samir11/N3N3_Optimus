@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+optimus/
+venv_qiskit/
+.env
+.env.*
+
+# Distribution / packaging
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# IDEs
+.vscode/
+*.pyproj
+*.suo
+*.user
+*.sdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime
+*.log
+
+# Results / output (competition run artifacts)
+ne3_quantum_prototype_results.csv
+Ne3Na3_solver_84_results.csv
+Ne3Na3_84_results.csv
+comparison_with_fulfillment.csv
+comparison_table.csv
+
+# Don't ignore notebooks or quantum source, keep those under version control
+# If you want to ignore large notebook outputs, add them explicitly later.
